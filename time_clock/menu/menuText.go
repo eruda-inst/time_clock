@@ -1,9 +1,12 @@
 package menu
 
-import "fmt"
+import (
+	"fmt"
+	"time_clock/time_clock/osactions"
+)
 
 func ShowMenu() {
-	fmt.Println("")
+	osactions.ClearScreen()
 	fmt.Println("1 - Registrar um ponto")
 	fmt.Println("2 - Exibir logs")
 	fmt.Println("0 - Sair do programa")
