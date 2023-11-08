@@ -15,6 +15,11 @@ Primeiramente, instale GO:
 https://go.dev/dl/
 
 ```
+mkdir /home/[YOUR USER]/go
+mkdir /home/[YOUR USER]/go/bin
+mkdir /home/[YOUR USER]/go/pkg
+mkdir /home/[YOUR USER]/go/src
+cd /home/[YOUR USER]/go/src
 git clone https://github.com/eruda-inst/time_clock
 go run main.go
 ```
