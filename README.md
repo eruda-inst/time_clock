@@ -25,4 +25,7 @@ go run main.go
 ```
 
 
-> Necessário resolução do gitignore que não deve subir o arquivo de log
+### v1.0
+
+- Sistema funciona no CLI
+- Faz registro de nome e data em um arquivo csv
