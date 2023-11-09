@@ -11,8 +11,8 @@ import (
 
 func main() {
 	filename := "log/log.csv"
-	fmt.Println("Iniciando")
-	menu.ShowIntro()
+	// fmt.Println("Iniciando")
+	// menu.ShowIntro()
 	for {
 		menu.ShowMenu()
 		command := menu.ReadCommand()
@@ -34,11 +34,6 @@ func main() {
 			fmt.Println("Presença registrada com sucesso")
 			time.Sleep(2 * time.Second)
 
-		case 2:
-			osactions.ClearScreen()
-			fmt.Println("Função em desenvolvimento")
-			time.Sleep(5 * time.Second)
-			// exibeLog()
 		case 0:
 			osactions.ClearScreen()
 			fmt.Println("Até logo...")
